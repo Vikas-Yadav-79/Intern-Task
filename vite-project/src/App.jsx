@@ -1,22 +1,24 @@
 
 import './App.css';
 import Header from './components/Header';
-import { Container } from '@chakra-ui/react'
+import { Container,Flex } from '@chakra-ui/react'
 import { Content } from './components/Content';
 
 
 function App() {
   return (
     <>
-    <Container w={'375px'}   bg={'black'}>
 
-        <Header />
-        <Content/>
-        
-       
+        <Container w={{ base: '375px', md: '375px' }} bg={'black'}>
 
-    </Container>
-      
+          <Header />
+          <Content />
+
+
+        </Container>
+
+
+
     </>
   );
 }

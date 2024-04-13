@@ -3,9 +3,8 @@
 }
 
 .spiral-effect {
-    /* Add effect to the spiral logo */
     filter: drop-shadow(0 0 10px #fff);
-    animation: spinSpiral 2s ease-in-out forwards; /* Apply the animation */
+    animation: spinSpiral 2s ease-in-out forwards; 
 }
 
 @keyframes moveBell {
@@ -13,7 +12,7 @@
         transform: translateX(0);
     }
     50% {
-        transform: translateX(50px); /* Move the bell logo up */
+        transform: translateX(50px); 
     }
     /* 75%{
         transform: translateX(-50px);
@@ -33,6 +32,6 @@
     }
     
     100% {
-        transform: rotate(0deg); /* Rotate the spiral logo */
+        transform: rotate(0deg); 
     }
 }

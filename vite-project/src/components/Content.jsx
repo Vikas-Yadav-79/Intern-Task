@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import bellLogo from '/bell_image.svg';
 import spiralLogo from '/spiral_image.svg';
-import { Button, Center, Flex, Image, Text, useToast } from '@chakra-ui/react';
+import { Button, Flex, Image, Text, useToast } from '@chakra-ui/react';
 
 export const Content = () => {
     const toast = useToast();
@@ -16,7 +16,7 @@ export const Content = () => {
             duration: 2000,
             isClosable: true,
         });
-        setTimeout(() => setNotificationSent(false), 4000); // Reset the state after 3 seconds
+        setTimeout(() => setNotificationSent(false), 4000); 
 
     };
 
@@ -40,7 +40,7 @@ export const Content = () => {
                 <Button 
                     _hover={{'bg': '#AD4722'}}
                     color={'#fff'}
-                    bg={'linear-gradient(to right, #330910 20%, #AD4722 50%, #673215) 30%'}
+                    bg={'linear-gradient(to right, #330910 20%, #AD4722 50%, #673215 )30% '}
                     w={"327px"}
                     onClick={handleSendNotification}
                 >
