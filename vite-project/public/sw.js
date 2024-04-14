@@ -1,10 +1,14 @@
 
 const cacheName = 'your-app-cache';
+
 const assetsToCache = [
   '/',
   '/index.html',
-  '/app.css',
-  '/app.js',
+  '/src/app.css',
+  '/src/app.jsx',
+  '/src/main.jsx',
+  '/bell_image.svg', 
+  '/spiral_image.svg',
 ];
 
 self.addEventListener('install', event => {
