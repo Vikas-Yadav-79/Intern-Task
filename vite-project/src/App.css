@@ -7,19 +7,16 @@
     animation: spinSpiral 2s ease-in-out forwards; 
 }
 
+
 @keyframes moveBell {
-    0% {
-        transform: translateX(0);
+    0%,100% {
+        scale: 1;
     }
-    50% {
-        transform: translateX(50px); 
+    50%{
+        scale: 1.2;
+
     }
-    /* 75%{
-        transform: translateX(-50px);
-    } */
-    100% {
-        transform: translateX(0);
-    }
+
 }
 
 
