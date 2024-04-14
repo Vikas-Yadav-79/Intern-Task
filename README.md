@@ -1,3 +1,4 @@
+# Intern Task
  1.) Develop the front end (based on Next.js) as designed in Figma
 
  ![image](https://github.com/Vikas-Yadav-79/Intern-Task/assets/121033913/a8b3dea8-f6dd-4ded-af48-6ec6550407a5)
